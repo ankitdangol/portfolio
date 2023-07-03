@@ -9,11 +9,11 @@ const Image = () => {
     return (
         <>
             <Box display='flex' justifyContent='center' mt='55px' pb='75px' position='relative' sx={{ background: `url(${backgroundCurve})`, backgroundSize: '40%', backgroundRepeat: 'no-repeat', backgroundPositionX: 'center', backgroundPositionY: '50px' }}>
-                <img src={avatar} width='12%' style={{ borderRadius: '50%', border: 'solid', borderWidth: '5px', borderColor: '#676cdb', padding: '6px' }} />
+                <img src={avatar} alt='Avatar' width='12%' style={{ borderRadius: '50%', border: 'solid', borderWidth: '5px', borderColor: '#676cdb', padding: '6px' }} />
                 <Box display='flex' justifyContent='space-between' position='absolute' top='70px' gap='5px'>
-                    <img src={linkedin} width='20%' style={{ cursor: 'pointer' }} />
-                    <img src={github} width='20%' style={{ cursor: 'pointer' }} />
-                    <img src={instagram} width='20%' style={{ cursor: 'pointer' }} />
+                    <img src={linkedin} alt='LinkedIn' width='20%' style={{ cursor: 'pointer' }} />
+                    <img src={github} alt='GitHub' width='20%' style={{ cursor: 'pointer' }} />
+                    <img src={instagram} alt='Instagram' width='20%' style={{ cursor: 'pointer' }} />
                 </Box>
             </Box>
         </>

@@ -1,6 +1,5 @@
 import { Box, Typography, Button } from '@mui/material';
 import techIcon from '../assets/techIcon.png';
-import { BorderColor } from '@mui/icons-material';
 
 const About = () => {
     return (
@@ -17,7 +16,7 @@ const About = () => {
                         </Typography>
                     </Box>
 
-                    <Typography lineHeight='30px'>
+                    <Typography lineHeight='30px' fontSize='17px'>
                         Enthusiastic and eager to contribute to team success through hard work and attention to detail. Motivated to learn, grow and excel. Not much experienced, but ready to take on challenges and get out of my comfort zone.
                     </Typography>
 
@@ -28,37 +27,93 @@ const About = () => {
 
                         <Box display='flex' flexDirection='column' gap='20px'>
                             <Box display='flex' gap='20px'>
-                                <Button variant="outlined" size="large" sx={{ color: '#676cdb', borderRadius: '20px', borderWidth: '3px', borderColor: '#676cdb', textTransform: 'inherit' }}>
+                                <Button disableRipple variant="outlined" size="large" sx={{
+                                    cursor: 'auto', color: '#676cdb', borderRadius: '25px', borderWidth: '3px', borderColor: '#676cdb', textTransform: 'inherit',
+                                    '&.MuiButtonBase-root:hover': {
+                                        border: 'solid 3px #676cdb',
+                                        background: '#676cdb',
+                                        color: 'white'
+                                    }
+                                }}>
                                     reactjs
                                 </Button>
 
-                                <Button variant="outlined" size="large" sx={{ color: '#676cdb', borderRadius: '20px', borderWidth: '3px', borderColor: '#676cdb', textTransform: 'inherit' }}>
+                                <Button disableRipple variant="outlined" size="large" sx={{
+                                    cursor: 'auto', color: '#676cdb', borderRadius: '25px', borderWidth: '3px', borderColor: '#676cdb', textTransform: 'inherit',
+                                    '&.MuiButtonBase-root:hover': {
+                                        border: 'solid 3px #676cdb',
+                                        background: '#676cdb',
+                                        color: 'white'
+                                    }
+                                }}>
                                     javascript
                                 </Button>
 
-                                <Button variant="outlined" size="large" sx={{ color: '#676cdb', borderRadius: '20px', borderWidth: '3px', borderColor: '#676cdb', textTransform: 'inherit' }}>
+                                <Button disableRipple variant="outlined" size="large" sx={{
+                                    cursor: 'auto', color: '#676cdb', borderRadius: '25px', borderWidth: '3px', borderColor: '#676cdb', textTransform: 'inherit',
+                                    '&.MuiButtonBase-root:hover': {
+                                        border: 'solid 3px #676cdb',
+                                        background: '#676cdb',
+                                        color: 'white'
+                                    }
+                                }}>
                                     html
                                 </Button>
 
-                                <Button variant="outlined" size="large" sx={{ color: '#676cdb', borderRadius: '20px', borderWidth: '3px', borderColor: '#676cdb', textTransform: 'inherit' }}>
+                                <Button disableRipple variant="outlined" size="large" sx={{
+                                    cursor: 'auto', color: '#676cdb', borderRadius: '25px', borderWidth: '3px', borderColor: '#676cdb', textTransform: 'inherit',
+                                    '&.MuiButtonBase-root:hover': {
+                                        border: 'solid 3px #676cdb',
+                                        background: '#676cdb',
+                                        color: 'white'
+                                    }
+                                }}>
                                     css
                                 </Button>
 
-                                <Button variant="outlined" size="large" sx={{ color: '#676cdb', borderRadius: '20px', borderWidth: '3px', borderColor: '#676cdb', textTransform: 'inherit' }}>
+                                <Button disableRipple variant="outlined" size="large" sx={{
+                                    cursor: 'auto', color: '#676cdb', borderRadius: '25px', borderWidth: '3px', borderColor: '#676cdb', textTransform: 'inherit',
+                                    '&.MuiButtonBase-root:hover': {
+                                        border: 'solid 3px #676cdb',
+                                        background: '#676cdb',
+                                        color: 'white'
+                                    }
+                                }}>
                                     git
                                 </Button>
                             </Box>
 
                             <Box display='flex' gap='20px'>
-                                <Button variant="outlined" size="large" sx={{ color: '#676cdb', borderRadius: '20px', borderWidth: '3px', borderColor: '#676cdb', textTransform: 'inherit' }}>
+                                <Button disableRipple variant="outlined" size="large" sx={{
+                                    cursor: 'auto', color: '#676cdb', borderRadius: '25px', borderWidth: '3px', borderColor: '#676cdb', textTransform: 'inherit',
+                                    '&.MuiButtonBase-root:hover': {
+                                        border: 'solid 3px #676cdb',
+                                        background: '#676cdb',
+                                        color: 'white'
+                                    }
+                                }}>
                                     strapi
                                 </Button>
 
-                                <Button variant="outlined" size="large" sx={{ color: '#676cdb', borderRadius: '20px', borderWidth: '3px', borderColor: '#676cdb', textTransform: 'inherit' }}>
+                                <Button disableRipple variant="outlined" size="large" sx={{
+                                    cursor: 'auto', color: '#676cdb', borderRadius: '25px', borderWidth: '3px', borderColor: '#676cdb', textTransform: 'inherit',
+                                    '&.MuiButtonBase-root:hover': {
+                                        border: 'solid 3px #676cdb',
+                                        background: '#676cdb',
+                                        color: 'white'
+                                    }
+                                }}>
                                     tailwindcss
                                 </Button>
 
-                                <Button variant="outlined" size="large" sx={{ color: '#676cdb', borderRadius: '20px', borderWidth: '3px', borderColor: '#676cdb', textTransform: 'inherit' }}>
+                                <Button disableRipple variant="outlined" size="large" sx={{
+                                    cursor: 'auto', color: '#676cdb', borderRadius: '25px', borderWidth: '3px', borderColor: '#676cdb', textTransform: 'inherit',
+                                    '&.MuiButtonBase-root:hover': {
+                                        border: 'solid 3px #676cdb',
+                                        background: '#676cdb',
+                                        color: 'white'
+                                    }
+                                }}>
                                     materialui
                                 </Button>
                             </Box>
@@ -66,7 +121,7 @@ const About = () => {
                     </Box>
                 </Box>
 
-                <img src={techIcon} width='45%' />
+                <img src={techIcon} alt='Programmer' width='45%' />
             </Box>
         </>
     )
