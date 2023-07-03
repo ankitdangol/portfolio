@@ -1,5 +1,6 @@
-import { Box, Typography, Button } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import techIcon from '../assets/techIcon.png';
+import StatusPill from './StatusPill';
 
 const About = () => {
     return (
@@ -27,95 +28,17 @@ const About = () => {
 
                         <Box display='flex' flexDirection='column' gap='20px'>
                             <Box display='flex' gap='20px'>
-                                <Button disableRipple variant="outlined" size="large" sx={{
-                                    cursor: 'auto', color: '#676cdb', borderRadius: '25px', borderWidth: '3px', borderColor: '#676cdb', textTransform: 'inherit',
-                                    '&.MuiButtonBase-root:hover': {
-                                        border: 'solid 3px #676cdb',
-                                        background: '#676cdb',
-                                        color: 'white'
-                                    }
-                                }}>
-                                    reactjs
-                                </Button>
-
-                                <Button disableRipple variant="outlined" size="large" sx={{
-                                    cursor: 'auto', color: '#676cdb', borderRadius: '25px', borderWidth: '3px', borderColor: '#676cdb', textTransform: 'inherit',
-                                    '&.MuiButtonBase-root:hover': {
-                                        border: 'solid 3px #676cdb',
-                                        background: '#676cdb',
-                                        color: 'white'
-                                    }
-                                }}>
-                                    javascript
-                                </Button>
-
-                                <Button disableRipple variant="outlined" size="large" sx={{
-                                    cursor: 'auto', color: '#676cdb', borderRadius: '25px', borderWidth: '3px', borderColor: '#676cdb', textTransform: 'inherit',
-                                    '&.MuiButtonBase-root:hover': {
-                                        border: 'solid 3px #676cdb',
-                                        background: '#676cdb',
-                                        color: 'white'
-                                    }
-                                }}>
-                                    html
-                                </Button>
-
-                                <Button disableRipple variant="outlined" size="large" sx={{
-                                    cursor: 'auto', color: '#676cdb', borderRadius: '25px', borderWidth: '3px', borderColor: '#676cdb', textTransform: 'inherit',
-                                    '&.MuiButtonBase-root:hover': {
-                                        border: 'solid 3px #676cdb',
-                                        background: '#676cdb',
-                                        color: 'white'
-                                    }
-                                }}>
-                                    css
-                                </Button>
-
-                                <Button disableRipple variant="outlined" size="large" sx={{
-                                    cursor: 'auto', color: '#676cdb', borderRadius: '25px', borderWidth: '3px', borderColor: '#676cdb', textTransform: 'inherit',
-                                    '&.MuiButtonBase-root:hover': {
-                                        border: 'solid 3px #676cdb',
-                                        background: '#676cdb',
-                                        color: 'white'
-                                    }
-                                }}>
-                                    git
-                                </Button>
+                                <StatusPill skill='reactjs' />
+                                <StatusPill skill='javascript' />
+                                <StatusPill skill='html' />
+                                <StatusPill skill='css' />
+                                <StatusPill skill='git' />
                             </Box>
 
                             <Box display='flex' gap='20px'>
-                                <Button disableRipple variant="outlined" size="large" sx={{
-                                    cursor: 'auto', color: '#676cdb', borderRadius: '25px', borderWidth: '3px', borderColor: '#676cdb', textTransform: 'inherit',
-                                    '&.MuiButtonBase-root:hover': {
-                                        border: 'solid 3px #676cdb',
-                                        background: '#676cdb',
-                                        color: 'white'
-                                    }
-                                }}>
-                                    strapi
-                                </Button>
-
-                                <Button disableRipple variant="outlined" size="large" sx={{
-                                    cursor: 'auto', color: '#676cdb', borderRadius: '25px', borderWidth: '3px', borderColor: '#676cdb', textTransform: 'inherit',
-                                    '&.MuiButtonBase-root:hover': {
-                                        border: 'solid 3px #676cdb',
-                                        background: '#676cdb',
-                                        color: 'white'
-                                    }
-                                }}>
-                                    tailwindcss
-                                </Button>
-
-                                <Button disableRipple variant="outlined" size="large" sx={{
-                                    cursor: 'auto', color: '#676cdb', borderRadius: '25px', borderWidth: '3px', borderColor: '#676cdb', textTransform: 'inherit',
-                                    '&.MuiButtonBase-root:hover': {
-                                        border: 'solid 3px #676cdb',
-                                        background: '#676cdb',
-                                        color: 'white'
-                                    }
-                                }}>
-                                    materialui
-                                </Button>
+                                <StatusPill skill='strapi' />
+                                <StatusPill skill='tailwindcss' />
+                                <StatusPill skill='materialui' />
                             </Box>
                         </Box>
                     </Box>
